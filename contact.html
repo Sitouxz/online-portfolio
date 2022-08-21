@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yehezkiel Owen</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="./index.html">Owen</a>
+      </div>
+      <div class="dropdown-container">
+        <button onclick="showDropdown()" class="dropdown-button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="dropdown" class="dropdown">
+          <ul>
+            <li><a href="./index.html" class="active">Home</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="top flex-three">
+        <div class="intro flex-three">
+          <h1 class="title">Hi,</h1>
+          <article>
+            welcome to <span>Owen's</span> online portfolio. I'm a computer
+            science student who likes web development, UI/UX, and logo design.
+          </article>
+          <div class="social-media">
+            <div>
+              <a href="https://www.instagram.com/sitouxz/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/YehezkielOO"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <div>
+              <a href="https://github.com/Sitouxz"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <div>
+              <a onclick="copy()" id="discord" value="Sitou#4579"
+                ><i class="fa-brands fa-discord"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="image flex-three">
+          <img src="./assets/img/profile.png" alt="" />
+        </div>
+        <aside class="flex-three">
+          <div class="bio-title">
+            <h1>Biodata</h1>
+          </div>
+          <div class="biodata">
+            <div>
+              <h2>Name</h2>
+              <p>Yehezkiel Owen</p>
+            </div>
+            <div>
+              <h2>Alamat</h2>
+              <p>Paslaten, North Minahasa, North Sulawesi, Indonesia</p>
+            </div>
+            <div>
+              <h2>Phone</h2>
+              <p>+6281278276034</p>
+            </div>
+            <div>
+              <h2>Email</h2>
+              <p>yehezkielowen0901@gmail.com</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="contact">
+        <h2 class="contact-title">Contact</h2>
+
+        <div class="contact-container">
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Name" />
+            <input type="mail" placeholder="Email" />
+            <textarea
+              placeholder="Message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <button class="submit-button">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h1>Owen</h1>
+      </div>
+      <div><p>© 2021 copyright all right reserved</p></div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
